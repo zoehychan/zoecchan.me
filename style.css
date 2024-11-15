@@ -8,8 +8,8 @@
     z-index: 1000;
   }
 
-  #progressBar {
-    height: 100%;
-    width: 0;
-    background: #8b5cf6; /* violet-500 color */
-  }
+#progressBar {
+  height: 100%;
+  width: 0;
+  background: #8b5cf6; /* violet-500 color */
+}
