@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/tailwindcss-intersect@2.x.x/dist/observer.min.js"></script>
     <title>Zoe Chan</title>
 </head>
 <body>
     <header class="bg-white dark:bg-zinc-900 shadow">
         <div class="container mx-auto p-5 flex justify-between items-center">
-          <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Zoe Chan</h1>
+          <a href="/">
+            <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Zoe Chan</h1>
+          </a>
+          
           <nav class="space-x-4">
             <a href="#about" class="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">About</a>
             <a href="#projects" class="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Projects</a>
@@ -30,51 +34,79 @@
       <div id="progressBarContainer">
         <div id="progressBar"></div>
       </div>
-        <section class="bg-gray-100 dark:bg-zinc-800 h-screen flex items-center justify-center p-2 dark:drop-shadow-2xl">
+        <section class="bg-gray-100 dark:bg-zinc-800 h-lvh flex items-center justify-center w-full p-2 dark:drop-shadow-2xl">
             <div class="text-center">
-              <h2 class="drop-shadow-2xl text-8xl font-bold p-8 tracking-wider dark:text-slate-200">Hello;</h2>
+            <h2 class="drop-shadow-2xl text-8xl font-bold p-8 tracking-wider dark:text-slate-200 animate-fade-up animate-duration-500 animate-delay-300">Hello;</h2>
+            
               <p class="text-lg mt-4 dark:text-slate-300">I'm Zoe Chan, A Front-End Web Development Student</p>
+
               <a href="#projects" class="mt-6 inline-block px-6 py-3 bg-violet-500 text-white rounded-lg hover:bg-violet-400 hover:drop-shadow-xl">View My Work</a>
             </div>
+            <iframe src='https://my.spline.design/catavatar-d1d67ed94882051b73b117f839b8182d/'   class="absolute w-full h-full z-0"></iframe>
           </section>
           <section id="about" class="py-16 bg-white dark:bg-zinc-700 p-2">
-            <div class="container mx-auto text-center">
+            
+            <div class="container mx-auto text-center animate-fade-up animate-duration-500 animate-delay-100">
               <h2 class="text-3xl font-bold text-gray-900 dark:text-slate-200 mb-6">About Me</h2>
-              <p class="p-4 text-left text-lg text-gray-700 dark:text-gray-300 max-w-xl mx-auto">
+              
+              <p class="p-4 text-left text-lg text-gray-700 dark:text-gray-300 max-w-xl mx-auto intersect:opacity-100 transition">
                 I'm a self-motivated and aspiring student focusing on Front-End development. Currently I am working on completing my qualification in Diploma of Information Technology in Front-End Development at North Metropolitan TAFE, Perth WA, where I'm learning the art of building responsive, user-friendly websites and web applications.
                 <br/>
                 <br/>
                 Throughout my studies, I have hands-on experience with HTML, CSS and Javascript, I am also exploring modern frameworks such as React, Next.js, Bootstrap, Tailwind CSS and more. I enjoy creating user-friendly, accessible and engaging web interfaces, and I'm always eager to continuosly learn and grow as a web developer.
               </p>
+
             </div>
           </section>
           <section id="projects" class="py-16 bg-gray-100 dark:bg-zinc-800 p-4">
             <div class="container mx-auto">
               <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">My Projects</h2>
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white dark:bg-gray-700 shadow-md rounded-lg overflow-hidden"><a href="https://librarian.screencraft.net.au" target="_blank">
-                  <img src="img/project-1-thumbnail.jpg" alt="Project 1" class="w-full h-100 object-cover">
-                </a>
-                  
+                <a 
+                  href="https://librarian.screencraft.net.au" 
+                  target="_blank" 
+                  class="group bg-white dark:bg-gray-700 shadow-md rounded-lg overflow-hidden hover:bg-gray-100 dark:hover:bg-gray-600 transition duration-300"
+                >
+                  <img 
+                    src="img/project-1-thumbnail.jpg" 
+                    alt="Project 1" 
+                    class="w-fit h-72 object-cover"
+                  />
                   <div class="p-4">
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Public Libraries WA</h3>
-                    <p class="text-gray-600 dark:text-gray-300 mt-2">As part of a student group project at TAFE, together with my group we redeveloped the client's outdated website to create a more professional, user-friendly, and secure platform. Collaborating as a team, we utilized WordPress and Tailwind CSS to design a modern, responsive site that enhances the user experience while prioritizing performance and security. 
-                      <br/>
-                      <br/>
-                    This project demonstrates my ability to work effectively as a team and apply technical skills to real-world challenges.
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white group-hover:text-gray-700 dark:group-hover:text-gray-300 transition duration-300">
+                      Public Libraries WA
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 mt-2 group-hover:text-gray-500 dark:group-hover:text-gray-400 transition duration-300">
+                      As part of a student group project at TAFE, together with my group we redeveloped the client's outdated website to create a more professional, user-friendly, and secure platform. Collaborating as a team, we utilized WordPress and Tailwind CSS to design a modern, responsive site that enhances the user experience while prioritizing performance and security. 
+                      <br />
+                      <br />
+                      This project demonstrates my ability to work effectively as a team and apply technical skills to real-world challenges.
                     </p>
                   </div>
-                </div>
-                <div class="bg-white dark:bg-gray-700 shadow-md rounded-lg overflow-hidden">
-                  <a href="https://vite-react-gcc-zoes-projects-0a0fbe25.vercel.app/" target="_blank">
-                  <img src="img/project-2-thumbnail.jpg" alt="Project 2" class="w-full h-100 object-cover">
-                  </a>
+                </a>
+              
+                <a 
+                  href="https://vite-react-gcc-zoes-projects-0a0fbe25.vercel.app/" 
+                  target="_blank" 
+                  class="group bg-white dark:bg-gray-700 shadow-md rounded-lg overflow-hidden hover:bg-gray-100 dark:hover:bg-gray-600 transition duration-300"
+                >
+                  <img 
+                    src="img/project-2-thumbnail.jpg" 
+                    alt="Project 2" 
+                    class="w-full h-72 object-cover"
+                  />
                   <div class="p-4">
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white">George's Garden Centre</h3>
-                    <p class="text-gray-600 dark:text-gray-300 mt-2">I developed a responsive website featuring a modern interface, using React and styled with Bootstrap. This project marked my first experience with Vite, which I used to streamline the development and build processes for a more efficient workflow. The result is a polished, user-friendly site that's now live.</p>
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white group-hover:text-gray-700 dark:group-hover:text-gray-300 transition duration-300">
+                      George's Garden Centre
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 mt-2 group-hover:text-gray-500 dark:group-hover:text-gray-400 transition duration-300">
+                      I developed a responsive website featuring a modern interface, using React and styled with Bootstrap. This project marked my first experience with Vite, which I used to streamline the development and build processes for a more efficient workflow. The result is a polished, user-friendly site that's now live.
+                    </p>
                   </div>
-                </div>
+                </a>
               </div>
+              
+              
             </div>
           </section>
           
@@ -82,7 +114,8 @@
             <div class="container mx-auto text-center">
               <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-6">Skills</h2>
 
-              <div class="flex justify-center items-center space-x-4">
+
+              <div class="flex justify-center items-center space-x-4 intesect:scale-100">
                 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 512 512">
                   <title>HTML5 Logo</title>
                   <polygon fill="#E44D26" points="107.644,470.877 74.633,100.62 437.367,100.62 404.321,470.819 255.778,512    "/>
