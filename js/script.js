@@ -16,6 +16,7 @@ if (localStorage.getItem('theme') === 'dark') {
 html.classList.add('dark');
 }
 
+
 window.onscroll = function() {
     let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
