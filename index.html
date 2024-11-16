@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">  
     <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
     <script defer src="https://unpkg.com/tailwindcss-intersect@2.x.x/dist/observer.min.js"></script>
     <title>Zoe Chan</title>
 </head>
 <body>
     <header class="bg-white dark:bg-zinc-900 shadow">
         <div class="container mx-auto p-5 flex justify-between items-center">
-          <a href="/">
-            <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Zoe Chan</h1>
-          </a>
+            <!-- <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Zoe Chan</h1> -->
+             <a href="/">
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="100px" height="100px" viewBox="0 0 100.000000 100.000000" preserveAspectRatio="xMidYMid meet">
+
+                <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                <path d="M284 659 c-42 -12 -56 -31 -52 -71 4 -43 31 -45 38 -3 4 25 12 32 43 39 30 8 41 6 54 -6 14 -14 14 -24 3 -80 -11 -56 -11 -68 3 -95 16 -31 16 -32 -18 -83 -19 -29 -35 -64 -35 -79 0 -36 30 -63 66 -59 54 6 93 103 64 157 -7 14 -3 24 20 46 17 16 30 35 30 42 0 20 -31 16 -56 -8 l-22 -21 -12 22 c-9 17 -9 33 -1 65 17 66 14 84 -18 116 -31 30 -53 34 -107 18z m136 -322 c0 -37 -24 -77 -46 -77 -20 0 -17 26 8 71 27 48 38 49 38 6z"/>
+                <path d="M650 663 c-8 -3 -27 -17 -42 -31 -77 -72 -48 -182 49 -182 71 0 140 37 115 62 -6 6 -20 4 -41 -6 -45 -24 -101 -24 -117 -1 -18 24 -18 39 1 75 19 37 50 54 86 46 35 -7 49 12 24 31 -19 13 -48 16 -75 6z"/>
+                </g>
+                </svg>
+            </a>
           
           <nav class="space-x-4">
             <a href="#about" class="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">About</a>
@@ -42,18 +54,21 @@
 
               <a href="#projects" class="mt-6 inline-block px-6 py-3 bg-violet-500 text-white rounded-lg hover:bg-violet-400 hover:drop-shadow-xl">View My Work</a>
             </div>
-            <iframe src='https://my.spline.design/catavatar-d1d67ed94882051b73b117f839b8182d/'   class="absolute w-full h-full z-0"></iframe>
+            <!-- <iframe src='https://my.spline.design/catavatar-d1d67ed94882051b73b117f839b8182d/'   class="absolute w-full h-full z-0"></iframe> -->
           </section>
-          <section id="about" class="py-16 bg-white dark:bg-zinc-700 p-2">
+          <section id="about" class="py-16 bg-white dark:bg-zinc-700 p-2 text-balance">
             
             <div class="container mx-auto text-center animate-fade-up animate-duration-500 animate-delay-100">
               <h2 class="text-3xl font-bold text-gray-900 dark:text-slate-200 mb-6">About Me</h2>
-              
-              <p class="p-4 text-left text-lg text-gray-700 dark:text-gray-300 max-w-xl mx-auto intersect:opacity-100 transition">
+              <img src="img/peeps-avatar-zoe.webp" alt="Zoe Avatar by peeps" class="p-8 rounded-full mx-auto" />
+              <p class="text-left text-lg p-8 text-gray-700 dark:text-gray-300 max-w-xl mx-auto intersect:opacity-100 transition">
                 I'm a self-motivated and aspiring student focusing on Front-End development. Currently I am working on completing my qualification in Diploma of Information Technology in Front-End Development at North Metropolitan TAFE, Perth WA, where I'm learning the art of building responsive, user-friendly websites and web applications.
                 <br/>
                 <br/>
-                Throughout my studies, I have hands-on experience with HTML, CSS and Javascript, I am also exploring modern frameworks such as React, Next.js, Bootstrap, Tailwind CSS and more. I enjoy creating user-friendly, accessible and engaging web interfaces, and I'm always eager to continuosly learn and grow as a web developer.
+                Throughout my studies, I have hands-on experience with HTML, CSS and Javascript, I am also exploring modern frameworks such as React, Next.js, Bootstrap, Tailwind CSS and more.
+                <br/>
+                <br/>
+                 I enjoy creating user-friendly, accessible and engaging web interfaces, and I'm always eager to continuosly learn and grow as a web developer.
               </p>
 
             </div>
@@ -68,9 +83,9 @@
                   class="group bg-white dark:bg-gray-700 shadow-md rounded-lg overflow-hidden hover:bg-gray-100 dark:hover:bg-gray-600 transition duration-300"
                 >
                   <img 
-                    src="img/project-1-thumbnail.jpg" 
+                    src="img/project-1-thumbnail.webp" 
                     alt="Project 1" 
-                    class="w-fit h-72 object-cover"
+                    class="w-full h-fit object-cover"
                   />
                   <div class="p-4">
                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white group-hover:text-gray-700 dark:group-hover:text-gray-300 transition duration-300">
@@ -91,9 +106,9 @@
                   class="group bg-white dark:bg-gray-700 shadow-md rounded-lg overflow-hidden hover:bg-gray-100 dark:hover:bg-gray-600 transition duration-300"
                 >
                   <img 
-                    src="img/project-2-thumbnail.jpg" 
+                    src="img/project-2-thumbnail.webp" 
                     alt="Project 2" 
-                    class="w-full h-72 object-cover"
+                    class="w-full h-fit object-cover"
                   />
                   <div class="p-4">
                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white group-hover:text-gray-700 dark:group-hover:text-gray-300 transition duration-300">
@@ -180,7 +195,7 @@
               <h3 class="text-4xl font-bold mb-6 dark:text-white">
                 Let's get in touch    
               </h3>
-              <a href="mailto:hello@zoecchan.me" class="font-semibold text-3xl underline text-slate-600 dark:text-slate-200 hover:text-violet-500 dark:hover:text-violet-500">hello@zoecchan.me</a>
+              <a href="mailto:hello@zoecchan.me" class="font-semibold text-3xl underline text-slate-600 dark:text-slate-200 hover:text-violet-500 dark:hover:text-violet-500 hover:animate-jump">hello@zoecchan.me</a>
               <br>
               <form class="max-w-xl mx-auto p-8">
                 <div class="mb-4">

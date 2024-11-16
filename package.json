@@ -5,6 +5,6 @@
     "tailwindcss-intersect": "^2.0.1"
   },
   "scripts": {
-    "dev": "tailwindcss -i ./input.css -o ./style.css --watch"
+    "dev": "tailwindcss -i ./input.css -o ./output.css --watch"
   }
 }
