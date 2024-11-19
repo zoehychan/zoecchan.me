@@ -12,3 +12,12 @@
   width: 0;
   background: #8b5cf6; /* violet-500 color */
 }
+
+.logo-svg {
+  fill: #000; 
+}
+
+/* Dark mode */
+.dark .logo-svg {
+  fill: rgb(209 213 219);
+}
