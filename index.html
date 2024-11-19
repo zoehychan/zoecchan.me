@@ -21,7 +21,6 @@
             <!-- <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Zoe Chan</h1> -->
              <a href="/">
               <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="100px" height="100px" viewBox="0 0 100.000000 100.000000" preserveAspectRatio="xMidYMid meet">
-
                 <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
                 <path d="M284 659 c-42 -12 -56 -31 -52 -71 4 -43 31 -45 38 -3 4 25 12 32 43 39 30 8 41 6 54 -6 14 -14 14 -24 3 -80 -11 -56 -11 -68 3 -95 16 -31 16 -32 -18 -83 -19 -29 -35 -64 -35 -79 0 -36 30 -63 66 -59 54 6 93 103 64 157 -7 14 -3 24 20 46 17 16 30 35 30 42 0 20 -31 16 -56 -8 l-22 -21 -12 22 c-9 17 -9 33 -1 65 17 66 14 84 -18 116 -31 30 -53 34 -107 18z m136 -322 c0 -37 -24 -77 -46 -77 -20 0 -17 26 8 71 27 48 38 49 38 6z"/>
                 <path d="M650 663 c-8 -3 -27 -17 -42 -31 -77 -72 -48 -182 49 -182 71 0 140 37 115 62 -6 6 -20 4 -41 -6 -45 -24 -101 -24 -117 -1 -18 24 -18 39 1 75 19 37 50 54 86 46 35 -7 49 12 24 31 -19 13 -48 16 -75 6z"/>
@@ -29,18 +28,40 @@
                 </svg>
             </a>
           
-          <nav class="hidden md:flex space-x-4">
-            <a href="#about" class="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">About</a>
-            <a href="#projects" class="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Projects</a>
-            <a href="#skills" class="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Skills</a>
-            <a href="#contact" class="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Contact</a>
+          <nav class="hidden text-lg xl:text-xl md:flex space-x-8 mx-auto">
+            <a href="#about" class="text-gray-700 dark:text-gray-300 hover:text-gray-900 hover:font-semibold dark:hover:text-white ease-in duration-100">About</a>
+            <a href="#projects" class="text-gray-700 dark:text-gray-300 hover:font-semibold hover:text-gray-900 dark:hover:text-white ease-in duration-100">Projects</a>
+            <a href="#skills" class="text-gray-700 dark:text-gray-300 hover:font-semibold hover:text-gray-900 dark:hover:text-white ease-in duration-100">Skills</a>
+            <a href="#contact" class="text-gray-700 dark:text-gray-300 hover:font-semibold hover:text-gray-900 dark:hover:text-white ease-in duration-100">Contact</a>
           </nav>
-          <button id="theme-toggle" class="text-gray-700 dark:text-gray-300 p-4 rounded">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
-              </svg>
-              
+
+<div>
+        <button id="theme-toggle" class="text-gray-700 dark:text-gray-300 p-4 rounded hover:text-gray-500 dark:hover:text-gray-600">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+              <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
+            </svg>
+        </button>
+        <!-- Mobile Menu Toggle -->
+        <button id="menuToggle" class="md:hidden text-gray-700 dark:text-gray-300 hover: p-4" >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+            <path fill-rule="evenodd" d="M4.75 5.5a.75.75 0 0 1 .75-.75h13.5a.75.75 0 0 1 0 1.5H5.5a.75.75 0 0 1-.75-.75ZM4.75 12a.75.75 0 0 1 .75-.75h13.5a.75.75 0 0 1 0 1.5H5.5a.75.75 0 0 1-.75-.75ZM4.75 18.5a.75.75 0 0 1 .75-.75h13.5a.75.75 0 0 1 0 1.5H5.5a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg>
+        </button>
+      </div>
+
+        <!-- Mobile Menu -->
+        <nav id="mobileMenu" class="animate-fade-left hidden fixed inset-0 bg-white dark:bg-zinc-900 z-40 flex flex-col items-center justify-center space-y-8">
+          <a href="#about" class="text-2xl text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">About</a>
+          <a href="#projects" class="text-2xl text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Projects</a>
+          <a href="#skills" class="text-2xl text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Skills</a>
+          <a href="#contact" class="text-2xl text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Contact</a>
+          <button id="menuClose" class="text-gray-700 dark:text-gray-300">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
           </button>
+        </nav>
+
         </div>
       </header>
     <main>
@@ -57,8 +78,8 @@
             </div>
             <!-- <iframe src='https://my.spline.design/catavatar-d1d67ed94882051b73b117f839b8182d/'   class="absolute w-full h-full z-0"></iframe> -->
           </section>
-          <section id="about" class="py-16 bg-white dark:bg-zinc-700 p-2 text-balance">
-            <div class="container mx-auto text-center animate-fade-up animate-duration-500 animate-delay-100">
+          <section id="about" class="bg-white dark:bg-zinc-700 p-4 text-balance">
+            <div class="container mx-auto text-center intersect:animate-fade-up transition duration-500">
               <h2 class="text-3xl font-bold text-gray-900 dark:text-slate-200 mb-6">About Me</h2>
               <img src="img/peeps-avatar-zoe.webp" alt="Zoe Avatar by peeps" class="w-[200px] h-fit p-4 rounded-full mx-auto"/>
               <p class="text-left text-lg p-8 text-gray-700 dark:text-gray-300 max-w-xl mx-auto intersect:opacity-100 transition">
@@ -72,25 +93,25 @@
               </p>
             </div>
           </section>
-          <section id="projects" class="py-16 bg-gray-100 dark:bg-zinc-800 p-4">
-            <div class="container mx-auto">
-              <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">My Projects</h2>
-              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <section id="projects" class="py-16 bg-gray-100 dark:bg-zinc-800 p-4 transition duration-300">
+            <div class="container mx-auto intersect:animate-ease-in">
+              <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8 intersect:animate-fade-up transition duration-300">My Projects</h2>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 intersect:animate-fade-up transition duration-100">
                 <a 
                   href="https://librarian.screencraft.net.au" 
                   target="_blank" 
-                  class="group bg-white dark:bg-gray-700 shadow-md rounded-lg overflow-hidden hover:bg-gray-500 dark:hover:bg-gray-600 transition duration-300"
+                  class="group bg-white dark:bg-gray-700 shadow-md rounded-lg overflow-hidden hover:bg-gray-200 dark:hover:bg-gray-600 transition duration-300"
                 >
                   <img 
                     src="img/project-1-thumbnail.webp" 
                     alt="Project 1 thumbnail" 
                     class="w-full h-fit object-cover"
                   />
-                  <div class="p-4">
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white group-hover:text-gray-700 dark:group-hover:text-gray-300 transition duration-300">
+                  <div class="p-4 intersect:animate-fade-up transition duration-100">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white hover:bg-gray-200 dark:group-hover:text-gray-300">
                       Public Libraries WA
                     </h3>
-                    <p class="text-gray-600 dark:text-gray-300 mt-2 group-hover:text-gray-500 dark:group-hover:text-gray-400 transition duration-300">
+                    <p class="text-gray-600 dark:text-gray-300 mt-2 dark:group-hover:text-gray-400">
                       As part of a student group project at TAFE, together with my group we redeveloped the client's outdated website to create a more professional, user-friendly, and secure platform. Collaborating as a team, we utilized WordPress and Tailwind CSS to design a modern, responsive site that enhances the user experience while prioritizing performance and security. 
                       <br />
                       <br />
@@ -102,15 +123,15 @@
               <a 
                   href="https://vite-react-gcc-zoes-projects-0a0fbe25.vercel.app/" 
                   target="_blank" 
-                  class="group bg-white dark:bg-gray-700 shadow-md rounded-lg overflow-hidden hover:bg-gray-500 dark:hover:bg-gray-600"
+                  class="group bg-white dark:bg-gray-700 shadow-md rounded-lg overflow-hidden hover:bg-gray-200 dark:hover:bg-gray-600 transition duration-300"
                 >
                   <img 
                     src="img/project-2-thumbnail.webp" 
                     alt="Project 2 thumbnail" 
                     class="w-full h-fit object-cover"
                   />
-                  <div class="p-4">
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white group-hover:text-gray-700 dark:group-hover:text-gray-300 ">
+                  <div class="p-4 intersect:animate-fade-up transition duration-100">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white hover:bg-gray-200  dark:group-hover:text-gray-300">
                       George's Garden Centre
                     </h3>
                     <p class="text-gray-600 dark:text-gray-300 mt-2 group-hover:text-gray-500 dark:group-hover:text-gray-400 ">
@@ -122,18 +143,18 @@
                 <a 
                   href="https://petproject-2023-zoes-projects-0a0fbe25.vercel.app/" 
                   target="_blank" 
-                  class="group bg-white dark:bg-gray-700 shadow-md rounded-lg overflow-hidden hover:bg-gray-500 dark:hover:bg-gray-600"
+                  class="group bg-white dark:bg-gray-700 shadow-md rounded-lg overflow-hidden hover:bg-gray-200 dark:hover:bg-gray-600 transition duration-300"
                 >
                   <img 
                     src="img/project-3-thumbnail.webp" 
                     alt="Project 3 thumbnail" 
                     class="w-full h-fit object-cover"
                   />
-                  <div class="p-4">
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white group-hover:text-gray-700 dark:group-hover:text-gray-300">
+                  <div class="p-4 intersect:animate-fade-up transition duration-100">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white hover:bg-gray-200  dark:group-hover:text-gray-300">
                       Pet Project
                     </h3>
-                    <p class="text-gray-600 dark:text-gray-300 mt-2 group-hover:text-gray-500 dark:group-hover:text-gray-400 ">
+                    <p class="text-gray-600 dark:text-gray-300 mt-2 dark:group-hover:text-gray-400">
                       During my Certificate IV in Web Development, I created a site focused on digital templates, showcasing customizable designs for various uses. Built with HTML, CSS, and JavaScript, the project emphasized responsive design and SEO research to enhance findability. This experience deepened my skills in front-end development and search optimization, balancing functionality and design.
                     </p>
                   </div>
@@ -141,8 +162,8 @@
               </div>
             </div>
             <br/>
-              <p class="text-left text-lg p-4 mt-4 text-gray-700 dark:text-gray-300 max-w-xl mx-auto intersect:opacity-100 transition">
-              Throughout my course, I also conducted researches and presented topics in areas of search engine optimisation like <a href="https://show.zohopublic.com.au/publish/ee1nb7035c3d5e9c145f3aa647b2c9d85cb0c" target="_blank" class="hover:text-violet-500 font-semibold">Google Algorithms</a> and technology trends such as <a href="https://prezi.com/view/ii7Inbd7zK5oOuVaB9Ib/" target="_blank" class="hover:text-violet-500 font-semibold">Sustainable Web Designs</a>, exploring their impact on usability and environmental efficiency. 
+              <p class="text-left text-lg p-4 mt-4 text-gray-700 dark:text-gray-300 max-w-xl mx-auto intersect:animate-fade-up transition duration-600">
+              Throughout my course, I also conducted researches and presented topics in areas of search engine optimisation like <a href="https://show.zohopublic.com.au/publish/ee1nb7035c3d5e9c145f3aa647b2c9d85cb0c" target="_blank" class="hover:text-violet-500 font-semibold">Google Algorithms</a> and emerging technology trends such as <a href="https://prezi.com/view/ii7Inbd7zK5oOuVaB9Ib/" target="_blank" class="hover:text-violet-500 font-semibold">Sustainable Web Designs</a>, exploring their impact on usability and environmental efficiency. 
               <br/>
               <br/>
               This experience has made me more conscious of the importance of integrating these aspects into my development process, ensuring my work is not only effective but also mindful of its broader impact.
@@ -151,10 +172,8 @@
           </section>
           
           <section id="skills" class="py-16 bg-white dark:bg-zinc-700 p-4">
-            <div class="container mx-auto text-center">
+            <div class="container mx-auto text-center intersect:animate-fade-up transition duration-500 ">
               <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-6">Skills</h2>
-
-
               <div class="flex justify-center items-center space-x-4 intesect:scale-100">
                 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 512 512">
                   <title>HTML5 Logo</title>
@@ -215,17 +234,14 @@
             </div>
           </section>
           
-          <section id="contact" class="py-16 bg-gray-100 dark:bg-zinc-800 p-4">
-            <div class="container mx-auto text-center">
-              <h3 class="text-4xl font-bold mb-6 dark:text-white">
+          <section id="contact" class="py-16 bg-gray-100 dark:bg-zinc-800 p-4 flex flex-col text-center gap-4">
+              <h3 class="text-4xl font-bold dark:text-white">
                 Let's get in touch    
               </h3>
-              <a href="mailto:hello@zoecchan.me" class="mt-8 font-semibold text-3xl underline text-slate-600 dark:text-slate-200 hover:text-violet-500 dark:hover:text-violet-500 hover:animate-jump">hello@zoecchan.me</a>
-              <br>
-              <a href="https://www.linkedin.com/in/zoehychan/" class="block p-4 mx-auto">
-                <img src="img/LI-In-Bug.webp" alt="LinkedIn logo" class="w-[100px]] h-fit mx-auto">
+              <a href="mailto:hello@zoecchan.me" class="font-semibold text-3xl underline text-slate-600 dark:text-slate-200 hover:text-violet-500 dark:hover:text-violet-500 hover:animate-shake hover:animate-duration-[600ms] hover:animate-delay-100">hello@zoecchan.me</a>
+              <a href="https://www.linkedin.com/in/zoehychan/" class="mx-auto">
+                <img src="img/LI-In-Bug.webp" alt="LinkedIn logo" class="w-12 h-fit">
               </a>
-            </div>
           </section>
       </main>
     <footer class="bg-zinc-900 text-gray-300 py-6">
@@ -234,5 +250,6 @@
         </div>
       </footer>
       <script src="js/script.js"></script>
+      <script defer src="https://unpkg.com/tailwindcss-intersect@2.x.x/dist/observer.min.js"></script>
 </body>
 </html>
