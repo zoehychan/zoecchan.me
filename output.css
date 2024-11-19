@@ -825,6 +825,11 @@ video {
   gap: 1rem;
 }
 
+.gap-x-8{
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
 .space-x-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -847,6 +852,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden{
@@ -947,6 +958,10 @@ video {
   text-align: center;
 }
 
+.text-right{
+  text-align: right;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -983,6 +998,10 @@ video {
 
 .font-semibold{
   font-weight: 600;
+}
+
+.leading-6{
+  line-height: 1.5rem;
 }
 
 .tracking-wider{
