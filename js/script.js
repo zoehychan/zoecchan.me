@@ -21,14 +21,6 @@ const menuToggle = document.getElementById('menuToggle');
 const mobileMenu = document.getElementById('mobileMenu');
 const menuClose = document.getElementById('menuClose');
 
-menuToggle.addEventListener('click', () => {
-  mobileMenu.classList.remove('hidden');
-});
-
-// Close menu
-menuClose.addEventListener('click', () => {
-  mobileMenu.classList.add('hidden');
-});
 
 
 window.onscroll = function() {
