@@ -38,7 +38,7 @@
               </svg>
             </a>
           
-          <nav class="hidden text-lg xl:text-xl md:flex space-x-8 mx-auto">
+          <nav class="hidden text-lg xl:text-3xl md:flex space-x-8 mx-auto">
             <a href="#about" class="text-gray-700 dark:text-gray-300 hover:text-gray-900 hover:font-semibold dark:hover:text-white ease-in duration-100">About</a>
             <a href="#projects" class="text-gray-700 dark:text-gray-300 hover:font-semibold hover:text-gray-900 dark:hover:text-white ease-in duration-100">Projects</a>
             <a href="#skills" class="text-gray-700 dark:text-gray-300 hover:font-semibold hover:text-gray-900 dark:hover:text-white ease-in duration-100">Skills</a>
@@ -81,34 +81,32 @@
             
               <p class="text-lg mt-8 dark:text-slate-300 animate-fade-up animate-duration-600 animate-delay-500">I'm Zoe Chan, A Front-End Web Development Student</p>
 
-              <p class="text-lg mt-8 dark:text-slate-300 animate-fade-up animate-duration-600 animate-delay-500">Welcome to my Portfolio site</p>
+              <p class="text-lg mt-8 dark:text-slate-300 animate-fade-up animate-duration-600 animate-delay-500">Welcome to my Portfolio Site</p>
 
-              <a href="#projects" class="mt-8 inline-block px-6 py-3 bg-violet-500 text-white rounded-lg hover:bg-violet-400 hover:drop-shadow-xl">View My Work</a>
+              <a href="#projects" class="hover:animate-bounce animate-infinite animate-ease-in mt-8 inline-block px-6 py-3 bg-violet-500 text-white rounded-lg hover:bg-violet-400 hover:drop-shadow-xl ">View My Work</a>
             </div>
             <!-- <iframe src='https://my.spline.design/catavatar-d1d67ed94882051b73b117f839b8182d/'   class="absolute w-full h-full z-0"></iframe> -->
           </section>
           <section id="about" class="bg-white dark:bg-zinc-700 p-4 text-balance">
-            <div class="container mx-auto text-center intersect:animate-fade-up transition duration-500">
-              <h2 class="text-3xl font-bold mt-8 text-gray-900 dark:text-slate-200 mb-6">About Me</h2>
+            <div class="container mx-auto text-center intersect:animate-fade-up transition duration-500 max-w-5xl space-y-8 py-16">
+              <h2 class="text-3xl xl:text-5xl font-bold mt-8 text-gray-900 dark:text-slate-200 mb-6">A Little About Me...</h2>
               <img src="img/peeps-avatar-zoe.webp" alt="Zoe Avatar by peeps" class="w-[200px] h-auto p-4 rounded-full mx-auto"/>
-              <p class="text-left text-lg p-8 text-gray-700 dark:text-gray-300 max-w-xl mx-auto intersect:opacity-100 transition">
-                I'm a self-motivated and aspiring student focusing on Front-End development. Currently I am working on completing my qualification in Diploma of Information Technology in Front-End Development at North Metropolitan TAFE, Perth WA, where I'm learning the art of building responsive, user-friendly websites and web applications.
-                <br/>
-                <br/>
-                Throughout my studies, I have hands-on experience with HTML, CSS and Javascript, I am also exploring modern frameworks such as React, Next.js, Bootstrap, Tailwind CSS and more.
-                <br/>
-                <br/>
-                 I enjoy creating user-friendly, accessible and engaging web interfaces, and I'm always eager to continuosly learn and grow as a web developer. My ultimate goal is to merge cutting-edge technology with thoughtful design to craft impactful and enjoyable digital experiences.
-                 <br/>
-                 <br/>
-                 Alongside my technical growth, I have a strong interest in UX design, as I find great satisfaction in creating seamless, user-centric experiences. I enjoy designing web interfaces that allow users to navigate sites effortlessly and with ease, ensuring accessibility and engagement at every step.
-              </p>
+              <div class="text-left text-xl xl:text-3xl xl:w-max text-gray-700 dark:text-gray-300 max-w-3xl mx-auto intersect:opacity-100 transition leading-relaxed space-y-12">
+                <p>👋 Nei Hou (Hi)! I'm Zoe, a front-end developer in the making, turning creative ideas into seamless digital experiences! Currently pursuing my Diploma of Information Technology at North Metropolitan TAFE, Perth WA. I specialize in building responsive, user-friendly websites and web applications that look great and perform even better.</p>
+                
+                <p>💻 I bring code to life with HTML, CSS, JavaScript, and modern frameworks like React, Next.js, Bootstrap, and Tailwind CSS.</p>
+                
+                <p>✨ With a passion for UX design, I thrive on crafting accessible, intuitive, and engaging interfaces that make navigating the web effortless and enjoyable.</p>
+                
+                <p>🚀 My mission? To blend the latest technology with thoughtful design, delivering experiences that leave a lasting impact.</p>
+              </div>              
             </div>
           </section>
+          
           <section id="projects" class="py-16 bg-gray-100 dark:bg-zinc-800 p-4 transition duration-300">
-            <div class="container mx-auto intersect:animate-ease-in">
-              <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8 intersect:animate-fade-up transition duration-300">My Projects</h2>
-              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 intersect:animate-fade-up transition duration-100">
+            <div class="container mx-auto intersect:animate-ease-inn">
+              <h2 class="text-3xl xl:text-5xl font-bold text-center text-gray-900 dark:text-white mb-8 intersect:animate-fade-up transition duration-300">My Projects</h2>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 intersect:animate-fade-up transition duration-100 ">
                 <a 
                   href="https://librarian.screencraft.net.au" 
                   target="_blank" 
@@ -119,16 +117,26 @@
                     alt="Project 1 thumbnail" 
                     class="w-full h-fit object-cover"
                   />
-                  <div class="p-4 intersect:animate-fade-up transition duration-100">
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white hover:bg-gray-200 dark:group-hover:text-gray-300">
+                  <div class="p-4 intersect:animate-fade-up transition duration-100 space-y-6">
+                    <h3 class="text-xl xl:text-2xl font-semibold text-gray-900 dark:text-white dark:group-hover:text-gray-300 ">
                       Public Libraries WA
                     </h3>
-                    <p class="text-gray-600 dark:text-gray-300 mt-2 dark:group-hover:text-gray-400">
+                    <p class="xl:text-2xl text-xl text-gray-600 dark:text-gray-300 dark:group-hover:text-gray-400">
                       As part of a student group project at TAFE, together with my group we redeveloped the client's outdated website to create a more professional, user-friendly, and secure platform. Collaborating as a team, we utilized WordPress and Tailwind CSS to design a modern, responsive site that enhances the user experience while prioritizing performance and security. 
-                      <br />
-                      <br />
+                      </p>
+                      <p class="xl:text-2xl text-xl text-gray-600 dark:text-gray-300 mt-2 dark:group-hover:text-gray-400">
                       This project demonstrates my ability to work effectively as a team and apply technical skills to real-world challenges.
                     </p>
+                    <div class="flex space-x-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+                        <title>Wordpress</title>
+                        <path fill="#fff" d="M24 4.050000000000001A19.95 19.95 0 1 0 24 43.95A19.95 19.95 0 1 0 24 4.050000000000001Z"/><path fill="#01579b" d="M8.001,24c0,6.336,3.68,11.806,9.018,14.4L9.385,17.488C8.498,19.479,8.001,21.676,8.001,24z M34.804,23.194c0-1.977-1.063-3.35-1.67-4.412c-0.813-1.329-1.576-2.437-1.576-3.752c0-1.465,1.471-2.84,3.041-2.84 c0.071,0,0.135,0.006,0.206,0.008C31.961,9.584,28.168,8,24.001,8c-5.389,0-10.153,2.666-13.052,6.749 c0.228,0.074,0.307,0.039,0.611,0.039c1.669,0,4.264-0.2,4.264-0.2c0.86-0.057,0.965,1.212,0.099,1.316c0,0-0.864,0.105-1.828,0.152 l5.931,17.778l3.5-10.501l-2.603-7.248c-0.861-0.046-1.679-0.152-1.679-0.152c-0.862-0.056-0.762-1.375,0.098-1.316 c0,0,2.648,0.2,4.217,0.2c1.675,0,4.264-0.2,4.264-0.2c0.861-0.057,0.965,1.212,0.104,1.316c0,0-0.87,0.105-1.832,0.152l5.891,17.61 l1.599-5.326C34.399,26.289,34.804,24.569,34.804,23.194z M24.281,25.396l-4.8,13.952c1.436,0.426,2.95,0.652,4.52,0.652 c1.861,0,3.649-0.324,5.316-0.907c-0.04-0.071-0.085-0.143-0.118-0.22L24.281,25.396z M38.043,16.318 c0.071,0.51,0.108,1.059,0.108,1.645c0,1.628-0.306,3.451-1.219,5.737l-4.885,14.135C36.805,35.063,40,29.902,40,24 C40,21.219,39.289,18.604,38.043,16.318z"/><path fill="#01579b" d="M4,24c0,11.024,8.97,20,19.999,20C35.03,44,44,35.024,44,24S35.03,4,24,4S4,12.976,4,24z M5.995,24 c0-9.924,8.074-17.999,18.004-17.999S42.005,14.076,42.005,24S33.929,42.001,24,42.001C14.072,42.001,5.995,33.924,5.995,24z"/></svg>
+                        <svg role="img" viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><title>HTML5</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" fill="#E34F26"/></svg>
+                        <svg role="img" viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><title>CSS3</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" fill="#1572B6"/></svg>
+                        <svg role="img" viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><title>Tailwind CSS</title><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" fill="#06B6D4"/></svg>
+                        <svg role="img" viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><title>JavaScript</title><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" fill="#F7DF1E"/></svg>
+                        <svg role="img" viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><title>PHP</title><path d="M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z" fill="#777BB4"/></svg>
+                    </div>
                   </div>
                 </a>
               
@@ -142,13 +150,35 @@
                     alt="Project 2 thumbnail" 
                     class="w-full h-fit object-cover"
                   />
-                  <div class="p-4 intersect:animate-fade-up transition duration-100">
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white hover:bg-gray-200  dark:group-hover:text-gray-300">
+                  <div class="p-4 intersect:animate-fade-up transition duration-100 space-y-6">
+                    <h3 class="text-xl xl:text-2xl font-semibold text-gray-900 dark:text-white dark:group-hover:text-gray-300">
                       George's Garden Centre
                     </h3>
-                    <p class="text-gray-600 dark:text-gray-300 mt-2 group-hover:text-gray-500 dark:group-hover:text-gray-400 ">
+                    <p class="xl:text-2xl text-xl text-gray-600 dark:text-gray-300 mt-2 group-hover:text-gray-500 dark:group-hover:text-gray-400 ">
                       I developed a responsive website featuring a modern interface, using React and styled with Bootstrap. This project marked my first experience with Vite, which I used to streamline the development and build processes for a more efficient workflow. The result is a polished, user-friendly site that's now live.
                     </p>
+                    <div class="flex space-x-2">
+                      <svg role="img" viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><title>HTML5</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" fill="#E34F26"/></svg>
+                      <svg role="img" viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><title>CSS3</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" fill="#1572B6"/></svg>
+                      <svg role="img" viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><title>Bootstrap</title><path d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z" fill="#7952B3"/></svg>
+                      <svg role="img" viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><title>React</title><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="#61DAFB"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 410 404" fill="none">
+                        <title>Vite</title>
+                        <path d="M399.641 59.5246L215.643 388.545C211.844 395.338 202.084 395.378 198.228 388.618L10.5817 59.5563C6.38087 52.1896 12.6802 43.2665 21.0281 44.7586L205.223 77.6824C206.398 77.8924 207.601 77.8904 208.776 77.6763L389.119 44.8058C397.439 43.2894 403.768 52.1434 399.641 59.5246Z" fill="url(#paint0_linear)"/>
+                        <path d="M292.965 1.5744L156.801 28.2552C154.563 28.6937 152.906 30.5903 152.771 32.8664L144.395 174.33C144.198 177.662 147.258 180.248 150.51 179.498L188.42 170.749C191.967 169.931 195.172 173.055 194.443 176.622L183.18 231.775C182.422 235.487 185.907 238.661 189.532 237.56L212.947 230.446C216.577 229.344 220.065 232.527 219.297 236.242L201.398 322.875C200.278 328.294 207.486 331.249 210.492 326.603L212.5 323.5L323.454 102.072C325.312 98.3645 322.108 94.137 318.036 94.9228L279.014 102.454C275.347 103.161 272.227 99.746 273.262 96.1583L298.731 7.86689C299.767 4.27314 296.636 0.855181 292.965 1.5744Z" fill="url(#paint1_linear)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear" x1="6.00017" y1="32.9999" x2="235" y2="344" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#41D1FF"/>
+                        <stop offset="1" stop-color="#BD34FE"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="194.651" y1="8.81818" x2="236.076" y2="292.989" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FFEA83"/>
+                        <stop offset="0.0833333" stop-color="#FFDD35"/>
+                        <stop offset="1" stop-color="#FFA800"/>
+                        </linearGradient>
+                        </defs>
+                        </svg>
+                    </div>
                   </div>
                 </a>
 
@@ -162,93 +192,114 @@
                     alt="Project 3 thumbnail" 
                     class="w-full h-fit object-cover"
                   />
-                  <div class="p-4 intersect:animate-fade-up transition duration-100">
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white hover:bg-gray-200  dark:group-hover:text-gray-300">
+                  <div class="p-4 intersect:animate-fade-up transition duration-100 space-y-6">
+                    <h3 class="text-xl xl:text-2xl font-semibold text-gray-900 dark:text-white dark:group-hover:text-gray-300">
                       Pet Project
                     </h3>
-                    <p class="text-gray-600 dark:text-gray-300 mt-2 dark:group-hover:text-gray-400">
+                    <p class="xl:text-2xl text-xl text-gray-600 dark:text-gray-300 mt-2 dark:group-hover:text-gray-400">
                       During my Certificate IV in Web Development, I created a site focused on digital templates, showcasing customizable designs for various uses. Built with HTML, CSS, and JavaScript, the project emphasized responsive design and SEO research to enhance findability. This experience deepened my skills in front-end development and search optimization, balancing functionality and design.
                     </p>
+                    <div class="flex space-x-2">
+                      <svg role="img" viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><title>HTML5</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" fill="#E34F26"/></svg>
+                      <svg role="img" viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><title>CSS3</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" fill="#1572B6"/></svg>
+                      <svg role="img" viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><title>JavaScript</title><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" fill="#F7DF1E"/></svg>
+                    </div>
                   </div>
                 </a>
               </div>
             </div>
             <br/>
-              <p class="text-left text-lg p-4 mt-4 text-gray-700 dark:text-gray-300 max-w-xl mx-auto intersect:animate-fade-up transition duration-600">
+            <div class="text-left text-xl xl:text-3xl p-4 mt-4 text-gray-700 dark:text-gray-300 max-w-lg mx-auto intersect:animate-fade-up transition duration-600 space-y-8">
+              <p>
               Throughout my course, I also conducted researches and presented topics in areas of search engine optimisation like <a href="https://show.zohopublic.com.au/publish/ee1nb7035c3d5e9c145f3aa647b2c9d85cb0c" target="_blank" class="hover:text-violet-500 font-semibold">Google Algorithms</a> and emerging technology trends such as <a href="https://prezi.com/view/ii7Inbd7zK5oOuVaB9Ib/" target="_blank" class="hover:text-violet-500 font-semibold">Sustainable Web Designs</a>, exploring their impact on usability and environmental efficiency. 
-              <br/>
-              <br/>
+              </p>
+              <p>
               This experience has made me more conscious of the importance of integrating these aspects into my development process, ensuring my work is not only effective but also mindful of its broader impact.
-            </p>
+              </p>
+            </div>
             <div id="wcb" class="carbonbadge mt-4"></div>
           </section>
           
+          <!-- adjusted layout -->
           <section id="skills" class="py-16 bg-white dark:bg-zinc-700 p-4">
-            <div class="container mx-auto text-center intersect:animate-fade-up transition duration-500 ">
-              <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-6">Skills</h2>
-              <div class="flex justify-center items-center space-x-4 intesect:scale-100">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 512 512">
-                  <title>HTML5 Logo</title>
-                  <polygon fill="#E44D26" points="107.644,470.877 74.633,100.62 437.367,100.62 404.321,470.819 255.778,512    "/>
-                  <polygon fill="#F16529" points="256,480.523 376.03,447.246 404.27,130.894 256,130.894    "/>
-                  <polygon fill="#EBEBEB" points="256,268.217 195.91,268.217 191.76,221.716 256,221.716 256,176.305 255.843,176.305 142.132,176.305 143.219,188.488 154.38,313.627 256,313.627"/>
-                  <polygon fill="#EBEBEB" points="256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634 255.791,433.457 256,433.399"/>
-                  <path d="M108.382,0h23.077v22.8h21.11V0h23.078v69.044H152.57v-23.12h-21.11v23.12h-23.077V0z"/>
-                  <path d="M205.994,22.896h-20.316V0h63.72v22.896h-20.325v46.148h-23.078V22.896z"/>
-                  <path d="M259.511,0h24.063l14.802,24.26L313.163,0h24.072v69.044h-22.982V34.822l-15.877,24.549h-0.397l-15.888-24.549v34.222h-22.58V0z"/>
-                  <path d="M348.72,0h23.084v46.222h32.453v22.822H348.72V0z"/>
-                  <polygon fill="#FFFFFF" points="255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 349.162,268.217"/>
-                  <polygon fill="#FFFFFF" points="255.843,176.305 255.843,204.509 255.843,221.605 255.843,221.716 365.385,221.716 365.385,221.716 365.531,221.716 366.442,211.509 368.511,188.488 369.597,176.305"/>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 1000 1000" fill="none">
-                  <title>CSS3 Logo</title>
-                  <path fill="#639" d="M0 0H840C882.435 0 923.131 16.8571 953.137 46.8629C983.143 76.8687 1000 117.565 1000 160V840C1000 882.435 983.143 923.131 953.137 953.137C923.131 983.143 882.435 1000 840 1000H160C117.565 1000 76.8687 983.143 46.8629 953.137C16.8571 923.131 0 882.435 0 840V0Z"/>
-                  <path fill="#fff" d="M817.5 923.1C785.2 923.1 760.5 913.7 743.2 894.8C726.1 875.8 717.2 848.7 716.4 813.3H786C786.4 844.6 797.4 860.3 819 860.3C830 860.3 837.8 856.8 842.3 849.9C846.7 843 849 832 849 816.9C849 804.9 846 794.9 840.2 787C832.326 777.611 822.216 770.354 810.8 765.9L785 753.5C762 742.5 745.3 729.5 735 714.3C725 699.2 720 678 720 650.9C720 620.6 728.8 596 746.3 577.1C764.3 558.2 788.8 548.8 820.1 548.8C850.3 548.8 873.7 558.1 890.2 576.6C907 595.2 915.8 621.8 916.5 656.6H849.5C849.906 645.225 847.61 633.916 842.8 623.6C839 616 831.6 612.2 820.6 612.2C801 612.2 791.2 623.9 791.2 647.2C791.2 659 793.6 668.2 798.4 675.2C805.323 682.937 813.998 688.904 823.7 692.6L848.4 703.5C873.9 715.2 892.3 729.5 903.6 746.8C915 764 920.6 787 920.6 815.8C920.6 850.3 911.6 876.8 893.3 895.3C875.1 913.8 849.8 923.1 817.5 923.1ZM592.7 923.1C560.4 923.1 535.7 913.7 518.4 894.8C501.3 875.8 492.4 848.7 491.6 813.3H561.2C561.6 844.6 572.6 860.3 594.2 860.3C605.2 860.3 613 856.8 617.4 849.9C621.9 843 624.1 832 624.1 816.9C624.1 804.9 621.2 794.9 615.4 787C607.526 777.611 597.416 770.354 586 765.9L560.2 753.5C537.2 742.5 520.5 729.5 510.2 714.3C500.2 699.2 495.2 678 495.2 650.9C495.2 620.6 504 596 521.5 577.1C539.5 558.2 564 548.8 595.3 548.8C625.5 548.8 648.9 558.1 665.3 576.6C682.3 595.2 691 621.8 691.7 656.6H624.7C625.106 645.225 622.81 633.916 618 623.6C614.2 616 606.8 612.2 595.8 612.2C576.2 612.2 566.4 623.9 566.4 647.2C566.4 659 568.8 668.2 573.6 675.2C580.523 682.937 589.198 688.904 598.9 692.6L623.6 703.5C649.1 715.2 667.5 729.5 678.8 746.8C690.1 764 695.8 787 695.8 815.8C695.8 850.3 686.7 876.8 668.5 895.3C650.3 913.8 625 923.1 592.7 923.1ZM358.6 923.1C327 923.1 301.9 914.5 283.3 897.3C264.7 880.2 255.5 854.5 255.5 820.5V652.5C255.5 618.7 265.3 593.1 284.9 575.5C304.8 558.1 330.9 549.3 363.2 549.3C394.5 549.3 419.2 558.3 437.5 576.1C456 594 465.3 620.6 465.3 656.1V669.4H391.6V656.5C391.6 642.8 388.6 632.7 382.8 626.1C380.265 622.803 376.988 620.152 373.234 618.362C369.48 616.572 365.357 615.694 361.2 615.8C349.2 615.8 340.7 619.9 335.9 628.2C330.784 639.693 328.487 652.241 329.2 664.8V810.8C329.2 841.3 339.9 856.8 361.2 857.1C371.2 857.1 378.7 853.5 383.9 846.3C389.552 837.208 392.243 826.586 391.6 815.9V805H465.3V816.4C465.3 840.1 460.7 859.9 451.4 875.7C442.559 891.12 429.283 903.524 413.3 911.3C396.239 919.453 377.505 923.495 358.6 923.1Z"/>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" role="img" viewBox="0 0 24 24">
-                  <title>Bootstrap</title>
-                  <path d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z" fill="#7952b3"/>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox=".15 .13 799.7 479.69" width="100">
-                  <title>Tailwind CSS Logo</title>
-                  <path d="m400 .13c-106.63 0-173.27 53.3-199.93 159.89 39.99-53.3 86.64-73.28 139.95-59.96 30.42 7.6 52.16 29.67 76.23 54.09 39.2 39.78 84.57 85.82 183.68 85.82 106.62 0 173.27-53.3 199.92-159.9-39.98 53.3-86.63 73.29-139.95 59.97-30.41-7.6-52.15-29.67-76.22-54.09-39.2-39.78-84.58-85.82-183.68-85.82zm-199.93 239.84c-106.62 0-173.27 53.3-199.92 159.9 39.98-53.3 86.63-73.29 139.95-59.96 30.41 7.61 52.15 29.67 76.22 54.08 39.2 39.78 84.58 85.83 183.68 85.83 106.63 0 173.27-53.3 199.93-159.9-39.99 53.3-86.64 73.29-139.95 59.96-30.42-7.59-52.16-29.67-76.23-54.08-39.2-39.78-84.57-85.83-183.68-85.83z" fill="#06b6d4"/>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 1052 1052">
-                  <title>JavaScript Logo</title>
-                  <path fill="#f0db4f" d="M0 0h1052v1052H0z"/><path d="M965.9 801.1c-7.7-48-39-88.3-131.7-125.9-32.2-14.8-68.1-25.399-78.8-49.8-3.8-14.2-4.3-22.2-1.9-30.8 6.9-27.9 40.2-36.6 66.6-28.6 17 5.7 33.1 18.801 42.8 39.7 45.4-29.399 45.3-29.2 77-49.399-11.6-18-17.8-26.301-25.4-34-27.3-30.5-64.5-46.2-124-45-10.3 1.3-20.699 2.699-31 4-29.699 7.5-58 23.1-74.6 44-49.8 56.5-35.6 155.399 25 196.1 59.7 44.8 147.4 55 158.6 96.9 10.9 51.3-37.699 67.899-86 62-35.6-7.4-55.399-25.5-76.8-58.4-39.399 22.8-39.399 22.8-79.899 46.1 9.6 21 19.699 30.5 35.8 48.7 76.2 77.3 266.899 73.5 301.1-43.5 1.399-4.001 10.6-30.801 3.199-72.101zm-394-317.6h-98.4c0 85-.399 169.4-.399 254.4 0 54.1 2.8 103.7-6 118.9-14.4 29.899-51.7 26.2-68.7 20.399-17.3-8.5-26.1-20.6-36.3-37.699-2.8-4.9-4.9-8.7-5.601-9-26.699 16.3-53.3 32.699-80 49 13.301 27.3 32.9 51 58 66.399 37.5 22.5 87.9 29.4 140.601 17.3 34.3-10 63.899-30.699 79.399-62.199 22.4-41.3 17.6-91.3 17.4-146.6.5-90.2 0-180.4 0-270.9z" fill="#323330"/>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
-                  <title>React Logo</title>
-                    <path fill="#80deea" d="M24,34C11.1,34,1,29.6,1,24c0-5.6,10.1-10,23-10c12.9,0,23,4.4,23,10C47,29.6,36.9,34,24,34z M24,16	c-12.6,0-21,4.1-21,8c0,3.9,8.4,8,21,8s21-4.1,21-8C45,20.1,36.6,16,24,16z"></path><path fill="#80deea" d="M15.1,44.6c-1,0-1.8-0.2-2.6-0.7C7.6,41.1,8.9,30.2,15.3,19l0,0c3-5.2,6.7-9.6,10.3-12.4c3.9-3,7.4-3.9,9.8-2.5	c2.5,1.4,3.4,4.9,2.8,9.8c-0.6,4.6-2.6,10-5.6,15.2c-3,5.2-6.7,9.6-10.3,12.4C19.7,43.5,17.2,44.6,15.1,44.6z M32.9,5.4	c-1.6,0-3.7,0.9-6,2.7c-3.4,2.7-6.9,6.9-9.8,11.9l0,0c-6.3,10.9-6.9,20.3-3.6,22.2c1.7,1,4.5,0.1,7.6-2.3c3.4-2.7,6.9-6.9,9.8-11.9	c2.9-5,4.8-10.1,5.4-14.4c0.5-4-0.1-6.8-1.8-7.8C34,5.6,33.5,5.4,32.9,5.4z"></path><path fill="#80deea" d="M33,44.6c-5,0-12.2-6.1-17.6-15.6C8.9,17.8,7.6,6.9,12.5,4.1l0,0C17.4,1.3,26.2,7.8,32.7,19	c3,5.2,5,10.6,5.6,15.2c0.7,4.9-0.3,8.3-2.8,9.8C34.7,44.4,33.9,44.6,33,44.6z M13.5,5.8c-3.3,1.9-2.7,11.3,3.6,22.2	c6.3,10.9,14.1,16.1,17.4,14.2c1.7-1,2.3-3.8,1.8-7.8c-0.6-4.3-2.5-9.4-5.4-14.4C24.6,9.1,16.8,3.9,13.5,5.8L13.5,5.8z"></path><circle cx="24" cy="24" r="4" fill="#80deea"></circle>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
-                  <title>Photoshop Logo</title>
-                    <path fill="#03A9F4" d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4V10z"></path><path fill="#020F16" d="M20.016,19.174h-2.002v4.434h1.973c0.547,0,0.97-0.179,1.27-0.537s0.449-0.879,0.449-1.563c0-0.71-0.153-1.274-0.459-1.694S20.53,19.181,20.016,19.174z"></path><path fill="#020F16" d="M9,9v30h30V9H9z M23.365,24.789C22.539,25.597,21.393,26,19.928,26h-1.914v5h-2.871V16.781h4.844c1.406,0,2.528,0.437,3.364,1.309s1.255,2.005,1.255,3.398S24.192,23.981,23.365,24.789z M32.682,30.336c-0.709,0.573-1.641,0.859-2.793,0.859c-0.775,0-1.459-0.151-2.051-0.454s-1.057-0.725-1.392-1.265s-0.503-1.123-0.503-1.748h2.627c0.014,0.481,0.125,0.843,0.337,1.084s0.558,0.361,1.04,0.361c0.742,0,1.113-0.335,1.113-1.006c0-0.234-0.112-0.451-0.337-0.649S30,27.052,29.225,26.713c-1.139-0.462-1.922-0.94-2.349-1.436s-0.64-1.11-0.64-1.846c0-0.925,0.334-1.688,1.001-2.29s1.552-0.903,2.651-0.903c1.158,0,2.086,0.3,2.783,0.898s1.045,1.403,1.045,2.412h-2.764c0-0.859-0.357-1.289-1.074-1.289c-0.293,0-0.533,0.091-0.723,0.273s-0.283,0.437-0.283,0.762c0,0.234,0.104,0.441,0.313,0.62s0.699,0.435,1.475,0.767c1.127,0.417,1.922,0.881,2.388,1.392s0.698,1.174,0.698,1.987C33.746,29.005,33.391,29.763,32.682,30.336z"></path>
-                </svg>
-              </div>
-              <div class="flex justify-center space-x-6">
-                <div>
-                  <h4 class="text-xl font-semibold text-gray-900 dark:text-white">HTML</h3>
-                  <div class="bg-gray-300 dark:bg-gray-800 h-4 rounded-full mt-2 w-64">
-                    <div class="bg-violet-500 h-4 rounded-full w-11/12"></div>
-                  </div>
-                  <h4 class="text-xl font-semibold text-gray-900 dark:text-white">CSS</h3>
-                    
-                    <div class="bg-gray-300 dark:bg-gray-800 h-4 rounded-full mt-2 w-64">
-                      <div class="bg-violet-500 h-4 rounded-full w-11/12"></div>
-                    </div>
-                    <h4 class="text-xl font-semibold text-gray-900 dark:text-white">JavaScript</h3>
-                      <div class="bg-gray-300 dark:bg-gray-800 h-4 rounded-full mt-2 w-64">
-                        <div class="bg-violet-500 h-4 rounded-full w-7/12"></div>
-                      </div>
+            <div class="container mx-auto text-center intersect:animate-fade-up transition duration-500">
+              <h2 class="text-3xl xl:text-5xl font-bold text-gray-900 dark:text-white mb-6">Skills</h2>
+              <div class="grid grid-cols-2 gap-4 text-left space-y-4">
+                <div class="flex flex-col items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 512 512" class="mb-4">
+                    <title>HTML5 Logo</title>
+                      <polygon fill="#E44D26" points="107.644,470.877 74.633,100.62 437.367,100.62 404.321,470.819 255.778,512    "/>
+                      <polygon fill="#F16529" points="256,480.523 376.03,447.246 404.27,130.894 256,130.894    "/>
+                      <polygon fill="#EBEBEB" points="256,268.217 195.91,268.217 191.76,221.716 256,221.716 256,176.305 255.843,176.305 142.132,176.305 143.219,188.488 154.38,313.627 256,313.627"/>
+                      <polygon fill="#EBEBEB" points="256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634 255.791,433.457 256,433.399"/>
+                      <path d="M108.382,0h23.077v22.8h21.11V0h23.078v69.044H152.57v-23.12h-21.11v23.12h-23.077V0z"/>
+                      <path d="M205.994,22.896h-20.316V0h63.72v22.896h-20.325v46.148h-23.078V22.896z"/>
+                      <path d="M259.511,0h24.063l14.802,24.26L313.163,0h24.072v69.044h-22.982V34.822l-15.877,24.549h-0.397l-15.888-24.549v34.222h-22.58V0z"/>
+                      <path d="M348.72,0h23.084v46.222h32.453v22.822H348.72V0z"/>
+                      <polygon fill="#FFFFFF" points="255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 349.162,268.217"/>
+                      <polygon fill="#FFFFFF" points="255.843,176.305 255.843,204.509 255.843,221.605 255.843,221.716 365.385,221.716 365.385,221.716 365.531,221.716 366.442,211.509 368.511,188.488 369.597,176.305"/>
+                  </svg>
+                  <p class="text-lg xl:text-2xl font-medium text-gray-900 dark:text-gray-300">HTML5</p>
                 </div>
+                <div class="flex flex-col items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 1000 1000" class="mb-4">
+                    <title>CSS3 Logo</title>
+                    <path fill="#639" d="M0 0H840C882.435 0 923.131 16.8571 953.137 46.8629C983.143 76.8687 1000 117.565 1000 160V840C1000 882.435 983.143 923.131 953.137 953.137C923.131 983.143 882.435 1000 840 1000H160C117.565 1000 76.8687 983.143 46.8629 953.137C16.8571 923.131 0 882.435 0 840V0Z"/>
+                    <path fill="#fff" d="M817.5 923.1C785.2 923.1 760.5 913.7 743.2 894.8C726.1 875.8 717.2 848.7 716.4 813.3H786C786.4 844.6 797.4 860.3 819 860.3C830 860.3 837.8 856.8 842.3 849.9C846.7 843 849 832 849 816.9C849 804.9 846 794.9 840.2 787C832.326 777.611 822.216 770.354 810.8 765.9L785 753.5C762 742.5 745.3 729.5 735 714.3C725 699.2 720 678 720 650.9C720 620.6 728.8 596 746.3 577.1C764.3 558.2 788.8 548.8 820.1 548.8C850.3 548.8 873.7 558.1 890.2 576.6C907 595.2 915.8 621.8 916.5 656.6H849.5C849.906 645.225 847.61 633.916 842.8 623.6C839 616 831.6 612.2 820.6 612.2C801 612.2 791.2 623.9 791.2 647.2C791.2 659 793.6 668.2 798.4 675.2C805.323 682.937 813.998 688.904 823.7 692.6L848.4 703.5C873.9 715.2 892.3 729.5 903.6 746.8C915 764 920.6 787 920.6 815.8C920.6 850.3 911.6 876.8 893.3 895.3C875.1 913.8 849.8 923.1 817.5 923.1ZM592.7 923.1C560.4 923.1 535.7 913.7 518.4 894.8C501.3 875.8 492.4 848.7 491.6 813.3H561.2C561.6 844.6 572.6 860.3 594.2 860.3C605.2 860.3 613 856.8 617.4 849.9C621.9 843 624.1 832 624.1 816.9C624.1 804.9 621.2 794.9 615.4 787C607.526 777.611 597.416 770.354 586 765.9L560.2 753.5C537.2 742.5 520.5 729.5 510.2 714.3C500.2 699.2 495.2 678 495.2 650.9C495.2 620.6 504 596 521.5 577.1C539.5 558.2 564 548.8 595.3 548.8C625.5 548.8 648.9 558.1 665.3 576.6C682.3 595.2 691 621.8 691.7 656.6H624.7C625.106 645.225 622.81 633.916 618 623.6C614.2 616 606.8 612.2 595.8 612.2C576.2 612.2 566.4 623.9 566.4 647.2C566.4 659 568.8 668.2 573.6 675.2C580.523 682.937 589.198 688.904 598.9 692.6L623.6 703.5C649.1 715.2 667.5 729.5 678.8 746.8C690.1 764 695.8 787 695.8 815.8C695.8 850.3 686.7 876.8 668.5 895.3C650.3 913.8 625 923.1 592.7 923.1ZM358.6 923.1C327 923.1 301.9 914.5 283.3 897.3C264.7 880.2 255.5 854.5 255.5 820.5V652.5C255.5 618.7 265.3 593.1 284.9 575.5C304.8 558.1 330.9 549.3 363.2 549.3C394.5 549.3 419.2 558.3 437.5 576.1C456 594 465.3 620.6 465.3 656.1V669.4H391.6V656.5C391.6 642.8 388.6 632.7 382.8 626.1C380.265 622.803 376.988 620.152 373.234 618.362C369.48 616.572 365.357 615.694 361.2 615.8C349.2 615.8 340.7 619.9 335.9 628.2C330.784 639.693 328.487 652.241 329.2 664.8V810.8C329.2 841.3 339.9 856.8 361.2 857.1C371.2 857.1 378.7 853.5 383.9 846.3C389.552 837.208 392.243 826.586 391.6 815.9V805H465.3V816.4C465.3 840.1 460.7 859.9 451.4 875.7C442.559 891.12 429.283 903.524 413.3 911.3C396.239 919.453 377.505 923.495 358.6 923.1Z"/>
+                  </svg>
+                  <p class="text-lg xl:text-2xl font-medium text-gray-900 dark:text-gray-300">CSS3</p>
+                </div>
+                <div class="flex flex-col items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" role="img" viewBox="0 0 24 24" class="mb-4">
+                    <title>Bootstrap</title>
+                    <path d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z" fill="#7952b3"/>
+                  </svg>
+                  <p class="text-lg xl:text-2xl font-medium text-gray-900 dark:text-gray-300">Bootstrap</p>
+                </div>
+                <div class="flex flex-col items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 1052 1052">
+                    <title>JavaScript Logo</title>
+                    <path fill="#f0db4f" d="M0 0h1052v1052H0z"/><path d="M965.9 801.1c-7.7-48-39-88.3-131.7-125.9-32.2-14.8-68.1-25.399-78.8-49.8-3.8-14.2-4.3-22.2-1.9-30.8 6.9-27.9 40.2-36.6 66.6-28.6 17 5.7 33.1 18.801 42.8 39.7 45.4-29.399 45.3-29.2 77-49.399-11.6-18-17.8-26.301-25.4-34-27.3-30.5-64.5-46.2-124-45-10.3 1.3-20.699 2.699-31 4-29.699 7.5-58 23.1-74.6 44-49.8 56.5-35.6 155.399 25 196.1 59.7 44.8 147.4 55 158.6 96.9 10.9 51.3-37.699 67.899-86 62-35.6-7.4-55.399-25.5-76.8-58.4-39.399 22.8-39.399 22.8-79.899 46.1 9.6 21 19.699 30.5 35.8 48.7 76.2 77.3 266.899 73.5 301.1-43.5 1.399-4.001 10.6-30.801 3.199-72.101zm-394-317.6h-98.4c0 85-.399 169.4-.399 254.4 0 54.1 2.8 103.7-6 118.9-14.4 29.899-51.7 26.2-68.7 20.399-17.3-8.5-26.1-20.6-36.3-37.699-2.8-4.9-4.9-8.7-5.601-9-26.699 16.3-53.3 32.699-80 49 13.301 27.3 32.9 51 58 66.399 37.5 22.5 87.9 29.4 140.601 17.3 34.3-10 63.899-30.699 79.399-62.199 22.4-41.3 17.6-91.3 17.4-146.6.5-90.2 0-180.4 0-270.9z" fill="#323330"/>
+                  </svg>
+                  <p class="text-lg xl:text-2xl font-medium text-gray-900 dark:text-gray-300">JavaScript</p>
+                </div>
+                <div class="flex flex-col items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox=".15 .13 799.7 479.69" width="100">
+                    <title>Tailwind CSS Logo</title>
+                    <path d="m400 .13c-106.63 0-173.27 53.3-199.93 159.89 39.99-53.3 86.64-73.28 139.95-59.96 30.42 7.6 52.16 29.67 76.23 54.09 39.2 39.78 84.57 85.82 183.68 85.82 106.62 0 173.27-53.3 199.92-159.9-39.98 53.3-86.63 73.29-139.95 59.97-30.41-7.6-52.15-29.67-76.22-54.09-39.2-39.78-84.58-85.82-183.68-85.82zm-199.93 239.84c-106.62 0-173.27 53.3-199.92 159.9 39.98-53.3 86.63-73.29 139.95-59.96 30.41 7.61 52.15 29.67 76.22 54.08 39.2 39.78 84.58 85.83 183.68 85.83 106.63 0 173.27-53.3 199.93-159.9-39.99 53.3-86.64 73.29-139.95 59.96-30.42-7.59-52.16-29.67-76.23-54.08-39.2-39.78-84.57-85.83-183.68-85.83z" fill="#06b6d4"/>
+                  </svg>
+                  <p class="text-lg xl:text-2xl font-medium text-gray-900 dark:text-gray-300">Tailwind CSS</p>
+                </div>
+                <div class="flex flex-col items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                    <title>React Logo</title>
+                      <path fill="#80deea" d="M24,34C11.1,34,1,29.6,1,24c0-5.6,10.1-10,23-10c12.9,0,23,4.4,23,10C47,29.6,36.9,34,24,34z M24,16	c-12.6,0-21,4.1-21,8c0,3.9,8.4,8,21,8s21-4.1,21-8C45,20.1,36.6,16,24,16z"></path><path fill="#80deea" d="M15.1,44.6c-1,0-1.8-0.2-2.6-0.7C7.6,41.1,8.9,30.2,15.3,19l0,0c3-5.2,6.7-9.6,10.3-12.4c3.9-3,7.4-3.9,9.8-2.5	c2.5,1.4,3.4,4.9,2.8,9.8c-0.6,4.6-2.6,10-5.6,15.2c-3,5.2-6.7,9.6-10.3,12.4C19.7,43.5,17.2,44.6,15.1,44.6z M32.9,5.4	c-1.6,0-3.7,0.9-6,2.7c-3.4,2.7-6.9,6.9-9.8,11.9l0,0c-6.3,10.9-6.9,20.3-3.6,22.2c1.7,1,4.5,0.1,7.6-2.3c3.4-2.7,6.9-6.9,9.8-11.9	c2.9-5,4.8-10.1,5.4-14.4c0.5-4-0.1-6.8-1.8-7.8C34,5.6,33.5,5.4,32.9,5.4z"></path><path fill="#80deea" d="M33,44.6c-5,0-12.2-6.1-17.6-15.6C8.9,17.8,7.6,6.9,12.5,4.1l0,0C17.4,1.3,26.2,7.8,32.7,19	c3,5.2,5,10.6,5.6,15.2c0.7,4.9-0.3,8.3-2.8,9.8C34.7,44.4,33.9,44.6,33,44.6z M13.5,5.8c-3.3,1.9-2.7,11.3,3.6,22.2	c6.3,10.9,14.1,16.1,17.4,14.2c1.7-1,2.3-3.8,1.8-7.8c-0.6-4.3-2.5-9.4-5.4-14.4C24.6,9.1,16.8,3.9,13.5,5.8L13.5,5.8z"></path><circle cx="24" cy="24" r="4" fill="#80deea"></circle>
+                  </svg>
+                  <p class="text-lg xl:text-2xl font-medium text-gray-900 dark:text-gray-300">React</p>
+                </div>
+                <div class="flex flex-col items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                    <title>Photoshop Logo</title>
+                      <path fill="#03A9F4" d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4V10z"></path><path fill="#020F16" d="M20.016,19.174h-2.002v4.434h1.973c0.547,0,0.97-0.179,1.27-0.537s0.449-0.879,0.449-1.563c0-0.71-0.153-1.274-0.459-1.694S20.53,19.181,20.016,19.174z"></path><path fill="#020F16" d="M9,9v30h30V9H9z M23.365,24.789C22.539,25.597,21.393,26,19.928,26h-1.914v5h-2.871V16.781h4.844c1.406,0,2.528,0.437,3.364,1.309s1.255,2.005,1.255,3.398S24.192,23.981,23.365,24.789z M32.682,30.336c-0.709,0.573-1.641,0.859-2.793,0.859c-0.775,0-1.459-0.151-2.051-0.454s-1.057-0.725-1.392-1.265s-0.503-1.123-0.503-1.748h2.627c0.014,0.481,0.125,0.843,0.337,1.084s0.558,0.361,1.04,0.361c0.742,0,1.113-0.335,1.113-1.006c0-0.234-0.112-0.451-0.337-0.649S30,27.052,29.225,26.713c-1.139-0.462-1.922-0.94-2.349-1.436s-0.64-1.11-0.64-1.846c0-0.925,0.334-1.688,1.001-2.29s1.552-0.903,2.651-0.903c1.158,0,2.086,0.3,2.783,0.898s1.045,1.403,1.045,2.412h-2.764c0-0.859-0.357-1.289-1.074-1.289c-0.293,0-0.533,0.091-0.723,0.273s-0.283,0.437-0.283,0.762c0,0.234,0.104,0.441,0.313,0.62s0.699,0.435,1.475,0.767c1.127,0.417,1.922,0.881,2.388,1.392s0.698,1.174,0.698,1.987C33.746,29.005,33.391,29.763,32.682,30.336z"></path>
+                  </svg>
+                  <p class="text-lg xl:text-2xl font-medium text-gray-900 dark:text-gray-300">Photoshop</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                  <svg role="img" viewBox="0 0 24 24" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                    <title>Next.js</title>
+                    <path d="M18.665 21.978C16.758 23.255 14.465 24 12 24 5.377 24 0 18.623 0 12S5.377 0 12 0s12 5.377 12 12c0 3.583-1.574 6.801-4.067 9.001L9.219 7.2H7.2v9.596h1.615V9.251l9.85 12.727Zm-3.332-8.533 1.6 2.061V7.2h-1.6v6.245Z"/></svg>
+                  <p class="text-lg xl:text-2xl font-medium text-gray-900 dark:text-gray-300">Next.js</p>
+                </div>     
               </div>
             </div>
           </section>
           
+          <!-- end of layout -->
+
           <section id="contact" class="py-16 bg-gray-100 dark:bg-zinc-800 p-4 flex flex-col text-center gap-4">
-              <h3 class="text-4xl font-bold dark:text-white">
-                Let's get in touch    
+              <h3 class="text-4xl  xl:text-5xl font-bold dark:text-white">
+                Let's get in touch!    
               </h3>
               <a href="mailto:hello@zoecchan.me" class="font-semibold text-3xl underline text-slate-600 dark:text-slate-200 hover:text-violet-500 dark:hover:text-violet-500 hover:animate-shake hover:animate-duration-[600ms] hover:animate-delay-100">hello@zoecchan.me</a>
               <div class="flex justify-center items-center space-x-4">
