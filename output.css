@@ -693,10 +693,6 @@ video {
   max-width: 64rem;
 }
 
-.max-w-lg{
-  max-width: 32rem;
-}
-
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -731,6 +727,31 @@ video {
 
 .animate-fade-up{
   animation: fade-up var(--tw-animate-duration, 1s) var(--tw-animate-easing, ease) var(--tw-animate-delay, 0s) var(--tw-animate-iteration, 1) var(--tw-animate-fill, both);
+}
+
+@keyframes typing{
+  0%{
+    width: 0%;
+    visibility: hidden;
+  }
+
+  100%{
+    width: 100%;
+  }
+}
+
+@keyframes blink{
+  50%{
+    border-color: transparent;
+  }
+
+  100%{
+    border-color: black;
+  }
+}
+
+.animate-typing{
+  animation: typing 1.5s steps(20) alternate, blink .7s infinite;
 }
 
 .grid-cols-1{
@@ -821,6 +842,10 @@ video {
   scroll-behavior: smooth;
 }
 
+.whitespace-nowrap{
+  white-space: nowrap;
+}
+
 .text-balance{
   text-wrap: balance;
 }
@@ -835,6 +860,15 @@ video {
 
 .rounded-lg{
   border-radius: 0.5rem;
+}
+
+.border-r-4{
+  border-right-width: 4px;
+}
+
+.border-r-black{
+  --tw-border-opacity: 1;
+  border-right-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-gray-100{
@@ -874,10 +908,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-8{
-  padding: 2rem;
-}
-
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -896,6 +926,10 @@ video {
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.pr-5{
+  padding-right: 1.25rem;
 }
 
 .text-left{
@@ -919,11 +953,6 @@ video {
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-8xl{
-  font-size: 6rem;
-  line-height: 1;
 }
 
 .text-lg{
@@ -950,22 +979,6 @@ video {
 
 .leading-relaxed{
   line-height: 1.625;
-}
-
-.leading-6{
-  line-height: 1.5rem;
-}
-
-.leading-loose{
-  line-height: 2;
-}
-
-.leading-8{
-  line-height: 2rem;
-}
-
-.leading-4{
-  line-height: 1rem;
 }
 
 .tracking-wider{
@@ -1043,27 +1056,8 @@ video {
   transition-duration: 500ms;
 }
 
-.duration-200{
-  transition-duration: 200ms;
-}
-
 .ease-in{
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-}
-
-.animate-delay-300{
-  --tw-animate-delay: 300ms;
-  animation-delay: var(--tw-animate-delay);
-}
-
-.animate-delay-500{
-  --tw-animate-delay: 500ms;
-  animation-delay: var(--tw-animate-delay);
-}
-
-.animate-duration-500{
-  --tw-animate-duration: 500ms;
-  animation-duration: var(--tw-animate-duration);
 }
 
 .animate-infinite{
@@ -1163,29 +1157,9 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-@keyframes fade-up{
-  0%{
-    opacity: 0;
-    transform: translateY(2rem);
-  }
-
-  100%{
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.intersect\:animate-fade-up:not([no-intersect]){
-  animation: fade-up var(--tw-animate-duration, 1s) var(--tw-animate-easing, ease) var(--tw-animate-delay, 0s) var(--tw-animate-iteration, 1) var(--tw-animate-fill, both);
-}
-
-.intersect\:opacity-100:not([no-intersect]){
-  opacity: 1;
-}
-
-.intersect\:animate-ease-in:not([no-intersect]){
-  --tw-animate-easing: cubic-bezier(0.4, 0, 1, 1);
-  animation-timing-function: var(--tw-animate-easing);
+.dark\:border-r-white:is(.dark *){
+  --tw-border-opacity: 1;
+  border-right-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .dark\:bg-gray-700:is(.dark *){
@@ -1267,6 +1241,11 @@ video {
   .sm\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .sm\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 768px){
@@ -1277,11 +1256,21 @@ video {
   .md\:hidden{
     display: none;
   }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 1024px){
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:text-8xl{
+    font-size: 6rem;
+    line-height: 1;
   }
 }
 
@@ -1296,23 +1285,8 @@ video {
     line-height: 2rem;
   }
 
-  .xl\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .xl\:text-5xl{
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .xl\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .xl\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
