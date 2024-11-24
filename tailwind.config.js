@@ -13,7 +13,6 @@ module.exports = {
         typing: {
           "0%": {
             width: "0%",
-            visibility: "hidden"
           },
           "100%": {
             width: "100%"
@@ -24,12 +23,12 @@ module.exports = {
             borderColor: "transparent"
           },
           "100%": {
-            borderColor: "black"
+            borderColor: "transparent"
           }
         }
       },
       animation: {
-        typing: "typing 1.5s steps(20) alternate, blink .7s infinite"
+        typing: "typing 1.5s steps(20) alternate, blink 1s infinite"
       }
     },
   },

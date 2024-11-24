@@ -732,7 +732,6 @@ video {
 @keyframes typing{
   0%{
     width: 0%;
-    visibility: hidden;
   }
 
   100%{
@@ -746,12 +745,12 @@ video {
   }
 
   100%{
-    border-color: black;
+    border-color: transparent;
   }
 }
 
 .animate-typing{
-  animation: typing 1.5s steps(20) alternate, blink .7s infinite;
+  animation: typing 1.5s steps(20) alternate, blink 1s infinite;
 }
 
 .grid-cols-1{
