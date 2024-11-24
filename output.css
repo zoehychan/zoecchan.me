@@ -1156,6 +1156,26 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+@keyframes fade-up{
+  0%{
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intersect\:animate-fade-up:not([no-intersect]){
+  animation: fade-up var(--tw-animate-duration, 1s) var(--tw-animate-easing, ease) var(--tw-animate-delay, 0s) var(--tw-animate-iteration, 1) var(--tw-animate-fill, both);
+}
+
+.intersect\:opacity-100:not([no-intersect]){
+  opacity: 1;
+}
+
 .dark\:border-r-white:is(.dark *){
   --tw-border-opacity: 1;
   border-right-color: rgb(255 255 255 / var(--tw-border-opacity));
